@@ -3,8 +3,8 @@
 Inch::Config.register(:crystal) do
   codebase do
     object_provider :YARD
-    include_files   ['src/**/*.cr']
-    exclude_files   []
+    include_files   ['src/**/*.cr', 'docs/**/*.cr']
+    exclude_files   ['samples/**/*.cr', 'spec/**/*.cr']
   end
 
   evaluation do
