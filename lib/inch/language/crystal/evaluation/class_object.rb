@@ -1,6 +1,3 @@
-
-
-
 module Inch
   module Language
     module Crystal

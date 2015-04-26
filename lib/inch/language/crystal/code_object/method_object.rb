@@ -3,10 +3,7 @@ module Inch
     module Crystal
       module CodeObject
         # Proxy class for methods
-        class MethodObje
-
-
-          ct < Base
+        class MethodObject < Base
           def constructor?
             self[:constructor?]
           end

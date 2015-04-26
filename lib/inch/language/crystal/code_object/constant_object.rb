@@ -1,9 +1,6 @@
 module Inch
   module Language
     module Crystal
-
-
-      
       module CodeObject
         class ConstantObject < Base
         end
