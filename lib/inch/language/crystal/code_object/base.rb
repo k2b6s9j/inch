@@ -11,10 +11,7 @@ module Inch
       module CodeObject
         class Base < Inch::CodeObject::Proxy
           def language
-            :
-
-
-            
+            :crystal
           end
 
           # @return [Boolean] if the current object is an alias for something
