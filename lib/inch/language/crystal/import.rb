@@ -5,7 +5,7 @@ module Inch
   end
 end
 
-require 'inch/language/ruby/provider/yard'
+require 'inch/language/crystal/provider/yard'
 
 require 'inch/language/crystal/code_object/base'
 require 'inch/language/crystal/code_object/namespace_object'
