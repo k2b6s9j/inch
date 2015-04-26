@@ -52,7 +52,7 @@ require 'yard'
 
 log.level = ::Logger::UNKNOWN # basically disable YARD's logging
 
-require 'inch/language/ruby/provider/yard/parser'
-require 'inch/language/ruby/provider/yard/docstring'
-require 'inch/language/ruby/provider/yard/nodoc_helper'
-require 'inch/language/ruby/provider/yard/object'
+require 'inch/language/crystal/provider/yard/parser'
+require 'inch/language/crystal/provider/yard/docstring'
+require 'inch/language/crystal/provider/yard/nodoc_helper'
+require 'inch/language/crystal/provider/yard/object'
